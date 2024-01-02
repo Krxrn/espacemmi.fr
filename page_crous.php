@@ -67,7 +67,7 @@
                 <h1 class="fs-4 fw-bold">Découvrez nos Restaurants Universitaires</h1>
                 <div>
                     Ajouter une map
-                    <img src="images/carte.png" alt="" style="width:100%;">
+                    <img src="img/carte.png" alt="" style="width:100%;">
                 </div>
             </section>
 

@@ -23,7 +23,7 @@
 
 
         <?php
-            $db = new PDO('mysql:host=localhost;dbname=ent;port=3306', 'root', '');
+            include("connexion.php");
             // première requete pour avoir tous les menus de la base de données, sauf le dernier
             $requete = "SELECT * FROM crous ORDER BY date ASC LIMIT 1, " . PHP_INT_MAX;
             $stmt = $db->prepare($requete);
